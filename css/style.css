@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+.sidebar {
+  width: 100%;
+  max-width: 300px;
+}
+
+.box_knm_pc .zone-knm {
+  max-width: 100%;
+  padding: 6px 15px 16px;
+  background-image: url(/images/backgroup_pc.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box_knm_pc .zone-knm .bg_title {
+  background-image: url(/images/bg_title_tphcm_knm.png);
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  padding: 50px 15px 10px;
+  min-height: 100px;
+  margin-bottom: 8px;
+  background-size: 100%;
+  border-radius: 5px;
+}
+
+.box_knm_pc .zone-knm .btn_more {
+  text-align: right;
+}
+.box_knm_pc .zone-knm .btn_more a {
+  color: #900000;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.zone-knm .story {
+  display: flex;
+  align-items: center;
+  padding: 8px 0px;
+}
+
+.zone-knm .story__thumb {
+  width: 80px;
+  height: 65px;
+  margin-right: 12px;
+  margin-left: 8px;
+  margin-top: 10px;
+  flex-shrink: 0;
+}
+
+.zone-knm .story__thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.zone-knm .story__heading {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+a {
+  color: #343a40;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #000;
+}
+
+.btn-more {
+  display: inline-block;
+  padding: 2px 12px;
+  font-style: italic;
+  color: #900000;
+  float: right;
+  font-weight: 700;
+  border-radius: 4px;
+  font-size: 13px;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+/*----------mobile-------------*/
+
+.site-body {
+  padding: 0 16px 20px;
+}
+.box_knm_mobile .story {
+  display: flex;
+  align-items: center;
+}
+.box_knm_mobile .story__thumb {
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
+  margin-right: 16px;
+  width: 250px;
+}
+
+.box_knm_mobile .story__thumb a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.box_knm_mobile .story__thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.box_knm_mobile .story__heading {
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: bold;
+  margin: 0;
+}
+
+.box_knm_mobile .story__heading a {
+  color: #222;
+  text-decoration: none;
+}
+
+.box_knm_mobile .splide__slide {
+  padding: 0 10px;
+}
+
+.box_knm_mobile .splide__arrow {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.box_knm_mobile .splide__arrow--prev {
+  left: 10px;
+}
+
+.box_knm_mobile .splide__arrow--next {
+  right: 10px;
+}
+
+.box_knm_mobile .wrap-slider {
+  width: 100%;
+}
+
+.box_knm_mobile {
+  max-width: 100%;
+  padding: 6px 15px 16px;
+  background-image: url(/images/backgroup_mobile.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box_knm_mobile .bg_title {
+  background-image: url(/images/bg_title_tphcm_knm_mobile.png);
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  padding: 50px 15px 10px;
+  min-height: 90px;
+  margin-bottom: 8px;
+  background-size: 100%;
+  border-radius: 5px;
+}
+
+.box_knm_mobile .splide__pagination {
+  bottom: -0.5em !important;
+}
+.box_knm_mobile .btn_more {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.box_knm_mobile .btn_more-link {
+  color: #900000;
+  text-decoration: none;
+  font-size: 14px;
+}
+.box_knm_mobile {
+  display: none;
+}
+@media (max-width: 768px) {
+  .box_knm_mobile {
+    display: block !important;
+  }
+  .box_knm_mobile .bg_title {
+    min-height: 160px;
+    margin-bottom: 0px;
+  }
+}
+@media (max-width: 480px) {
+  .box_knm_mobile .splide__arrow {
+    width: 32px;
+    height: 32px;
+  }
+  .box_knm_pc {
+    display: none;
+  }
+  .box_knm_mobile {
+    display: block !important;
+  }
+  .box_knm_mobile .bg_title {
+    min-height: 90px;
+  }
+}
+
+@media (max-width: 320px) {
+  .box_knm_mobile .bg_title {
+    min-height: 70px;
+  }
+}
