@@ -24,35 +24,34 @@ body {
 }
 
 .box_knm_pc .zone-knm .bg_title {
-  background-image: url(../images/bg_title_tphcm_knm.png) !important;
-  background-repeat: no-repeat !important;
-  background-position: 0% 0% !important;
-  padding: 50px 15px 10px !important;
-  min-height: 100px !important;
-  margin-bottom: 8px !important;
-  background-size: 100% !important;
-  border-radius: 5px !important;
+  background-image: url(../images/bg_title_knm_pc.png);
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  padding: 50px 15px 10px;
+  min-height: 100px;
+  background-size: 100%;
+  border-radius: 5px;
 }
 
 .box_knm_pc .zone-knm .btn_more {
   text-align: center;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 .box_knm_pc .btn_more .btn_more-link {
   display: inline-block;
   padding: 8px 10px;
-  background-color: #900000;
-  color: #fff;
+  color: #900000;
+  border: 1px solid #900000;
   font-size: 16px;
-  font-weight: 600;
   text-decoration: none;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   transition: all 0.3s ease;
 }
 .box_knm_pc .btn_more .btn_more-link:hover {
-  background-color: #000;
+  background-color: #900000;
+  color: #fff;
   transform: translateY(-2px);
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
 }
@@ -185,7 +184,7 @@ a:hover {
 }
 
 .box_knm_mobile .bg_title {
-  background-image: url(../images/bg_title_tphcm_knm_mobile.png);
+  background-image: url(../images/bg_title_knm_mobile.png);
   background-repeat: no-repeat;
   background-position: 0% 0%;
   padding: 50px 15px 10px;
@@ -196,7 +195,7 @@ a:hover {
 }
 
 .box_knm_mobile .splide__pagination {
-  bottom: -0.5em !important;
+  bottom: -1em !important;
 }
 
 .box_knm_mobile .btn_more {
@@ -211,18 +210,18 @@ a:hover {
 
 .box_knm_mobile .btn_more-link {
   display: inline-block;
-  padding: 8px 10px;
-  background-color: #900000;
-  color: #fff;
+  padding: 8px 8px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  color: #900000;
+  border: 1px solid #900000;
   font-size: 16px;
-  font-weight: 600;
   text-decoration: none;
   border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   transition: all 0.3s ease;
 }
 .box_knm_mobile .btn_more .btn_more-link:hover {
-  background-color: #000;
+  background-color: #900000;
+  color: #fff;
   transform: translateY(-2px);
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
 }
@@ -231,6 +230,9 @@ a:hover {
   display: none;
 }
 @media (max-width: 768px) {
+  .box_knm_pc {
+    display: none;
+  }
   .box_knm_mobile {
     display: block !important;
     margin: 20px 0px;
@@ -252,12 +254,12 @@ a:hover {
     display: block !important;
   }
   .box_knm_mobile .bg_title {
-    min-height: 90px;
+    min-height: 70px;
   }
 }
 
 @media (max-width: 320px) {
   .box_knm_mobile .bg_title {
-    min-height: 70px;
+    min-height: 50px;
   }
 }
