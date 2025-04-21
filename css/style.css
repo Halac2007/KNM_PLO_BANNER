@@ -16,22 +16,22 @@ body {
 }
 
 .box_knm_pc .zone-knm {
-  max-width: 100%;
-  padding: 6px 15px 16px;
-  background-image: url(/images/backgroup_pc.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+  max-width: 100% !important;
+  padding: 6px 15px 16px !important;
+  background-image: url(../images/backgroup_pc.png) !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
 }
 
 .box_knm_pc .zone-knm .bg_title {
-  background-image: url(/images/bg_title_tphcm_knm.png);
-  background-repeat: no-repeat;
-  background-position: 0% 0%;
-  padding: 50px 15px 10px;
-  min-height: 100px;
-  margin-bottom: 8px;
-  background-size: 100%;
-  border-radius: 5px;
+  background-image: url(../images/bg_title_tphcm_knm.png) !important;
+  background-repeat: no-repeat !important;
+  background-position: 0% 0% !important;
+  padding: 50px 15px 10px !important;
+  min-height: 100px !important;
+  margin-bottom: 8px !important;
+  background-size: 100% !important;
+  border-radius: 5px !important;
 }
 
 .box_knm_pc .zone-knm .btn_more {
@@ -165,13 +165,13 @@ a:hover {
 .box_knm_mobile {
   max-width: 100%;
   padding: 6px 15px 16px;
-  background-image: url(/images/backgroup_mobile.png);
+  background-image: url(../images/backgroup_mobile.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .box_knm_mobile .bg_title {
-  background-image: url(/images/bg_title_tphcm_knm_mobile.png);
+  background-image: url(../images/bg_title_tphcm_knm_mobile.png);
   background-repeat: no-repeat;
   background-position: 0% 0%;
   padding: 50px 15px 10px;
