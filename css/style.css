@@ -177,7 +177,7 @@ a:hover {
 
 .box_knm_mobile {
   max-width: 100%;
-  padding: 6px 15px 16px;
+  padding: 6px 0px 16px;
   background-image: url(../images/backgroup_mobile.png);
   background-size: cover;
   background-repeat: no-repeat;
